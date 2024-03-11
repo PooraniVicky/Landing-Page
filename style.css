@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+.Container {
+
+    background-color: rgb(219, 161, 175);
+}
+
+.front {
+    background-image: url(./background.webp);
+    background: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.navbar {
+    background-color: seashell;
+}
+
+
+.dummyContent {
+
+    padding: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+
+    text-decoration: solid;
+    overflow: auto;
+    background-image: url(./154-1548857_cradle.jpg);
+    background: cover;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    padding: 15px;
+    background-color: seashell;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    color: grey;
+}
+
+img {
+    width: 15vw;
+    height: 30vh;
+}
+
+.btn {
+    text-align: center;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.inputBox {
+    padding: 50px;
+    height: 50px;
+    width: 500px;
+}
+
+.card-body {
+    text-align: center;
+    background-image: url(./nav.webp);
+}
+
+.footerButton {
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    background-image: url(./final.jpg);
+}
